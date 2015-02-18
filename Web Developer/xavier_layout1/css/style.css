@@ -1,0 +1,182 @@
+/*Start of Generic */
+body{
+	margin:0;
+	font-family:arial,sans-serif;
+}
+.text-bold{
+	font-size:14px;
+	font-weight: bold;
+}
+/*End of Generic*/
+
+/*Start of Header*/
+.main-header{
+	background-color:#3f67bf;
+}
+
+.main-logo{
+	height: 40px;
+	margin-top: 15px;
+}
+
+.header-info-list{
+	list-style: none;
+	color:white;
+}
+
+.header-info-list li{
+	text-align: right;
+}
+
+.header-info-list input{
+	border: none;
+}
+.main-nav{
+	background-color: #08d066;
+}
+.main-nav ul{
+	list-style: none;
+	padding:0;
+	margin:0; 
+}
+.main-nav ul li{
+	float: left;	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.main-nav ul li a{
+	color:black;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*End of Header*/
+
+
+/*Start of Footer*/
+.main-footer{
+	background-color: #3f67bf;
+	border-top: 10px solid #0acf66;
+	padding:20px 0;
+	color: white;
+
+}
+.sister-list{
+	list-style: none;
+	padding: 0;
+}
+
+.footer-img{
+	float: right;
+	margin-top: 30px;
+}
+
+
+/*End of Footer*/
+
+/*Start of Hero*/
+.main-hero{
+	height:454px;
+	background-image: url("../img/hero.jpg");
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
+/*End of Hero*/
+
+/*Start of Secondary Nav*/
+.secondary-nav{
+	background-color: #ededed;
+
+}
+.secondary-nav ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+
+}
+.secondary-nav ul li{
+	float:left;
+	width: 25%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:10px;
+	border-bottom: 2px solid #bfbfbf;
+}
+.secondary-nav ul li a{
+	text-decoration: none;
+	color:black;
+}
+/*End of Secondary Nav*/
+
+
+/*Start of Solution-Section*/
+.solution-section{
+	padding: 20px 0;
+}
+
+.solution-list{
+	font-size: 14px;
+	padding-left:0;
+	list-style: none;
+}
+.solution-list li:before{
+	margin-right: 10px;
+	content: "\2192";
+
+}
+.solution-button{
+	background-color: #e5e5e5;
+	border:none;
+	width: 100%;
+	text-align: left;
+	padding:5px 15px;
+	cursor: pointer;
+}
+/*End of Solution-Section*/
+
+/*Start of News Section*/
+.news-section{
+	background-color:#e6e6e6;
+	padding:20px 0; 
+}
+.news-button{
+	width: 100%;
+	text-align: left;
+	background-color: white;
+	border:none;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+.news-video{
+	width: 100%;
+	height:200px;
+}
+.news-title{
+	font-size: 15px;
+	margin-top: 0;
+}
+.gray-box{
+	position: absolute;
+	background-color: #b4b4b4;
+	height:40px;
+	width: 40px;
+}
+.latest-news-p{
+	margin-top: 0;
+}
+/*End of News Section*/
+
+/*Start of About Section*/
+.about-section{
+	padding: 20px 0;
+
+}
+.about-p{
+	font-size: 14px;
+
+}
+
+/*End of About Section*/

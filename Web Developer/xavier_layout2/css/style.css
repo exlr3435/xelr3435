@@ -1,0 +1,130 @@
+/*Start of Generic*/
+body{
+	margin:0;
+	font-family: arial,sans-serif;
+}
+.body-text{
+	font-size: 14px;
+}
+.underline{
+	text-decoration: underline;
+}
+
+/*End of Generic*/
+
+/*Start of Header*/
+.main-header{
+	background-color: #eaeaea;
+}
+
+.main-logo{
+	margin: 20px 0;
+}
+
+.menu-part{
+	width: 20%;
+	float: left;
+	padding: 0 8px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.menu-part ul{
+	list-style: none;
+	padding:0;
+	font-size: 12px;
+	color:#7c7c7c;
+}
+
+.menu-part h3{
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 5px solid black;
+	padding-bottom: 6px;
+	color:#7c7c7c;
+}
+.menu-part:first-child h3{
+	border-color: #f76900;
+}
+.menu-part:nth-child(2) h3{
+	border-color:#fcd04a;
+}
+.menu-part:nth-child(3) h3{
+	border-color:#b9d482;
+}
+.menu-part:nth-child(4) h3{
+	border-color:#3d92c2;
+}
+.menu-part:nth-child(5) h3{
+	border-color:#c078d0;
+}
+/*End of Header*/
+
+/*Start of Footer*/
+.top-footer{
+	background-color: #eaeaea;
+	padding: 20px 0;
+
+}
+.top-footer p{
+	color:#555;
+}
+.footer-list{
+	list-style: none;
+	padding:0;
+	font-size: 14px;
+	color:#555; 
+}
+.footer-heading{
+	color: #a1a1a1;
+	font-size: 20px;
+	font-weight: normal; 
+
+}
+.footer1{
+	margin-top: 5px;
+}
+.footer2{
+	float: right;
+	margin-top: 10px;
+}
+/*End of Footer*/
+
+/*Start of Comany Hero*/
+.company-hero{
+	padding: 20px 0;
+}
+/*End of Comany Hero*/
+
+/*Start of Company Quote*/
+.company-quote{
+	background-color: #eaeaea;
+	padding: 20px 0;
+}
+.main-quote{
+	font-style: italic;
+	text-align: center;
+	font-family: times,serif;
+}
+
+
+/*End of Company Quote*/
+
+
+/*Start of Company News*/
+.company-news{
+	padding: 20px 0;
+}
+.news-heading{
+	text-transform: uppercase;
+	color:#e77927;
+	font-size: 20px;
+}
+.news-logo-ph{
+	width:30%;
+	margin-left: 0.333333%;
+	margin-bottom: 10px;
+
+}
+/*End of Company News

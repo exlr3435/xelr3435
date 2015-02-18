@@ -1,0 +1,73 @@
+
+/*Start of Container*/
+body{
+	font-family: roboto, arial,sans-serif;
+ 	margin: 0;
+}
+.shop-button{
+	background-color: #14990e;
+	color: white;
+}
+/*End of Container*/
+
+/*Start of Header*/
+.main-header {
+	background-color: #60b85c;
+	color: white;
+}
+.inline-list li{
+	display: block;
+	float: left;
+	padding: 15px;
+}
+.float-right  {
+	float: right;
+}
+.main-header a{
+	text-decoration: none;
+	color:white;
+}
+.main-header a:hover {
+	color: #14990e;
+}
+.logo{
+	padding: 25px 0;
+}
+/*End of Header*/
+
+/*Start of Footer*/
+.main-footer {
+	background-color: #60b85c;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+.main-footer a{
+	color: white;
+	text-decoration:none;
+}
+
+
+.main-footer a:hover {
+	color: #14990e;
+}
+
+
+.delete-bullet {
+	list-style: none;
+
+}
+.remove-padding{
+	padding:0;
+}
+.align-center {
+	text-align: center;
+}
+/*End of Footer*/
+
+/*Start of Home*/
+.seminar-picture {
+	margin-top: 60px;
+	margin-bottom: 45px;
+}
+/*End of Home*/

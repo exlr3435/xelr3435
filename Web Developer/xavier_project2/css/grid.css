@@ -1,0 +1,82 @@
+/*Helpers*/
+.marginfix{
+	padding-top: 1px;
+	margin-top: -1px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.full-width{
+	width: 100%;
+}
+
+/*images*/
+.img-full-width{
+	max-width: 100%;
+}
+
+/*grid*/
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.clearfix:before, 
+.clearfix:after,
+.row:after,
+.row:before {
+	content: "\0020"; display: block; height: 0; visibility: hidden;	
+} 
+.clearfix:after,
+.row:after { clear: both; }
+.clearfix,
+.row { zoom: 1; }
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+
+/*grid*/
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+	float: left;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-1{ width: 8.33333%;   }
+.col-2{ width: 16.66666%;  }
+.col-3{ width: 25%;        }
+.col-4{ width: 33.33333%;  }
+.col-5{ width: 41.66666%;  }
+.col-6{ width: 50%;        }
+.col-7{ width: 58.33333%;  }
+.col-8{ width: 66.66666%;  }
+.col-9{ width: 75%;        }
+.col-10{ width: 83.33333%; }
+.col-11{ width: 91.66666%; }
+.col-12{ width: 100%;      }
